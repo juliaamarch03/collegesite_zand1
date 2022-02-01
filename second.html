@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>КПК ЛП</title>
+    <style>
+       .header{
+         background: #F6F9FE;
+         height: 225px;
+         max-width: 100%;
+         margin: 0px auto;
+         margin-top: -60px;
+       }
+       .title{
+         margin-top: 150px;
+         text-align: center;
+         font-weight: bold;
+         font-family: arial;
+         font-size: 60px;
+       }
+       .footer{
+         background: #444148;
+         width: 100%;
+         height: 100%;
+         margin-top: -20px;
+         margin-bottom: -10px;
+       }
+       .information{
+         overflow: hidden;
+         background: #F6F9FE;
+         margin-top: 90px;
+         max-width: 100%;
+         max-height: 100%;
+         border: none;
+         margin-bottom: -50px;
+       }
+       .content-list{
+         overflow: hidden;
+         position: static;
+         background-color: #fff;
+         margin: 20px;
+         padding: 5px;
+         width: 300px;
+         float: left;
+         box-shadow: 2px 3px 10px #808080;
+         padding-left: 20px;
+       }
+        .personalities {
+         overflow: hidden;
+         background-color: #fff;
+         padding: 5px;
+         margin: 20px;
+         width: 70%;
+         float: left;
+         box-shadow: 2px 3px 10px #808080;
+        }
+        #Content-list-tittle{
+          text-align: center;
+          font-weight: bold;
+          font-family: arial;
+          font-size: 25px;
+        }
+        .titles{
+          text-align: center;
+          font-weight: bold;
+          font-family: arial;
+          font-size: 40px;
+        }
+        .contentlist a{
+          font-size: 23px;
+          text-decoration: none;
+          color: #000;
+        }
+        .contentlist a:hover{
+          text-decoration: none;
+          color: #927265;
+        }
+        .left{
+          text-align: right;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+        }
+        .right{
+          text-align: left;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+          padding-left: 200px;
+        }
+        .leftimg {
+         float:left;
+         margin: 15px 20px 7px 20px;
+        }
+        .rightimg  {
+        float: right;
+        margin:  15px 20px 7px 20px;
+        }
+        .textp{
+          font-size: 22px;
+          line-height: 1.5;
+          text-align: justify;
+          margin-right: 30px;
+          margin-bottom: 60px;
+          margin-top: -10px;
+          margin-left: 30px;
+        }
+        hr{
+            border-width: none;
+            height: 2px;
+            text-align: center;
+            width: 90%;
+            border: none;
+            background: #46404A;
+            border-radius: 5px;
+        }
+        a{
+          font-size: 26px;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        a:hover{
+          text-decoration: none;
+          color: #54AAF3;
+        }
+        marquee{
+          font-size: 20px;
+          color: #fff;
+          padding: 10px;
+        }
+        .links{
+          background-color: #EAE3D9;
+          padding: 12px;
+          border-radius: 20px;
+          float: right;
+          margin: 20px;
+          font-size: 20px;
+          font-weight: bold;
+          color: #444148;
+        }
+        .links:hover{
+          color: #927265;
+          padding: 12px;
+          border-radius: 20px;
+          float: right;
+        }
+        .bottombttn{
+          margin-bottom: 150px;
+        }
+        #bg{
+          margin-left: -20px;
+          margin-top: -5px;
+        }
+        #kpklp{
+          margin-left: 100px;
+          margin-right: -60px;
+        }
+        #ttl{
+          text-align: center;
+          font-size: 35px;
+          font-weight: bold;
+          line-height: 1.5;
+          padding-top: 40px;
+          margin-left: -20px;
+        }
+        .contactinfo{
+          color: #fff;
+          line-height: 2;
+          font-size: 15px;
+          margin-left:60px;
+          padding-bottom: 30px;
+        }
+        #ttlfooter{
+          text-align: center;
+          line-height: 1.2;
+          color: #fff;
+          font-size: 20px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+        .spec{
+          background: #fff;
+        }
+        .infoleft{
+          font-size: 20px;
+          padding-left: 600px;
+          line-height: 1.5;
+          padding-bottom: 30px;
+        }
+        #obl{
+          padding-left: 200px;
+          padding-top: 50px;
+          opacity: 0.7;
+        }
+        .inforight{
+          font-size: 20px;
+          padding-left: 200px;
+          line-height: 1.5;
+          padding-bottom: 30px;
+        }
+        #fin{
+          opacity: 0.7;
+          padding-right: 200px;
+        }
+        #techn{
+          padding-left: 600px;
+          text-aling: left;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+        }
+        #tech{
+          padding-left: 100px;
+          padding-top: 30px;
+          opacity: 0.7;
+        }
+        #prgrmmr{
+            padding-right: 412px;
+        }
+        #mngmnt{
+          padding-right: 430px;
+        }
+        #frstp{
+          text-align: center;
+          padding-left: 35%;
+          color: #787878;
+        }
+        #scndp{
+          text-align: center;
+          padding-left: 20px;
+          color: #000;
+        }
+        #frstp:hover{
+          text-align: center;
+          padding-left: 20px;
+          padding-left: 35%;
+          color: #54AAF3;;
+        }
+        .unactive{
+          color: #787878;
+        }
+        #menu{
+          padding-top:20px;
+        }
+        #cntinf{
+          color: #000;
+          line-height: 2;
+          font-size: 20px;
+          margin-left:60px;
+          margin-top: 70px;
+          font-weight: bold;
+        }
+        .spec1{
+          width: 400px;
+          font-size: 20px;
+          margin-left: 100px;
+          background-color: #fff;
+          box-shadow: 2px 3px 10px #808080;
+          padding: 50px;
+          text-align: justify;
+          margin-bottom: 50px;
+          margin-top: 60px;
+          line-height: 1.2;
+        }
+        .ttl{
+          text-align: center;
+          font-size: 30px;
+          font-weight: bold;
+          margin-top: -10px;
+        }
+        #d1{
+          float: left;
+          margin-left: 200px;
+        }
+        #d2{
+          float: left;
+          margin-left: 100px;
+        }
+        #d3{
+          float: left;
+          margin-left: 200px;
+          margin-bottom: 50px;
+        }
+        #d4{
+          float: left;
+          margin-left: 100px;
+          margin-bottom: 130px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+          <header class="header">
+            <p class="textp"><img src="images/KPK_LP.png" alt="KPK LP"
+             width="200" height="200" class="leftimg" id="kpklp">
+             <p id="ttl">Коломийський політехнічний фаховий коледж
+               <br>Національного Університету<br> «ЛЬВІВСЬКА ПОЛІТЕХНІКА»</p>
+            </p>
+          </header>
+
+          <div class="content">
+                  <p id="cntinf">Адреса: вул.Чехова, 20, м.Коломия, Івано-Франківська обл., Україна, 78203<br>
+                    E-mail (електронна пошта): polynet100@gmail.com<br>
+                    тел.(03433) 5-03-39, факс (03433) 4-77-26<br>
+                    Відбіркова комісія: (03433) 2-79-85, (03433) 2-66-75<br></p>
+                <div class="information">
+                  <p id="menu"><a href="index.html" id="frstp" class="unactive">СПЕЦІАЛЬНОСТІ</a><a href="second.html" id="scndp">ВІДДІЛЕННЯ</a></p>
+                    <div class="layer1">
+                      <div class="spec1" id="d1">
+                            <p class="ttl">Денне відділення комп'ютерних технологій</p>
+                            <p>Завідувач денного відділення комп’ютерних технологій:<br>
+                              Василишин Володимир Петрович.<br>тел. (03433)5-03-57, vasylyshyn8@i.ua</p>
+                      </div>
+                      <div class="spec1" id="d2">
+                        <p class="ttl">Денне механіко-технологічне відділення</p>
+                        <p>Завідувач денного механіко-технологічного відділення:<br>
+                          Фучко Василь Богданович <br>тел.(03433)5-10-50</p>
+                      </div>
+                        </div>
+                      <div class="layer2">
+                      <div class="spec1" id="d3">
+                        <p class="ttl">Денне економічне відділення</p>
+                        <p>Завідувач денного економічного відділення:<br>
+                          Турчанська Любов Михайлівна <br>тел.(03433)5-03-57</p>
+                      </div>
+                      <div class="spec1" id="d4">
+                        <p class="ttl">Заочне відділення</p>
+                        <p>т. в. о. завідувача заочного відділення: <br>П’ятничанський Роман Степанович
+                          <br>тел.(03433)5-02-47</p>
+                        </div>
+                    </div>
+            </div>
+            <footer class="footer">
+                <p id="ttlfooter">Коломийський політехнічний фаховий коледж<br>
+                  Національного університету «Львівська політехніка»</p>
+                <p class="contactinfo">Адреса: вул.Чехова, 20, м.Коломия, Івано-Франківська обл.,
+                Україна, 78203<br>
+                E-mail (електронна пошта): polynet100@gmail.com<br>
+                тел.(03433) 5-03-39, факс (03433) 4-77-26<br>
+                Відбіркова комісія: (03433) 2-79-85, (03433) 2-66-75</p>
+            </footer>
+    </div>
+  </body>
+</html>

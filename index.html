@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>КПК ЛП</title>
+    <style>
+       .header{
+         background: #F6F9FE;
+         height: 225px;
+         max-width: 100%;
+         margin: 0px auto;
+         margin-top: -60px;
+       }
+       .title{
+         margin-top: 150px;
+         text-align: center;
+         font-weight: bold;
+         font-family: arial;
+         font-size: 60px;
+       }
+       .footer{
+         background: #444148;
+         width: 100%;
+         height: 100%;
+         margin-top: -20px;
+         margin-bottom: -10px;
+       }
+       .information{
+         overflow: hidden;
+         background: #F6F9FE;
+         margin-top: 90px;
+         max-width: 100%;
+         max-height: 100%;
+         border: none;
+         margin-bottom: -50px;
+       }
+       .content-list{
+         overflow: hidden;
+         position: static;
+         background-color: #fff;
+         margin: 20px;
+         padding: 5px;
+         width: 300px;
+         float: left;
+         box-shadow: 2px 3px 10px #808080;
+         padding-left: 20px;
+       }
+        .personalities {
+         overflow: hidden;
+         background-color: #fff;
+         padding: 5px;
+         margin: 20px;
+         width: 70%;
+         float: left;
+         box-shadow: 2px 3px 10px #808080;
+        }
+        #Content-list-tittle{
+          text-align: center;
+          font-weight: bold;
+          font-family: arial;
+          font-size: 25px;
+        }
+        .titles{
+          text-align: center;
+          font-weight: bold;
+          font-family: arial;
+          font-size: 40px;
+        }
+        .contentlist a{
+          font-size: 23px;
+          text-decoration: none;
+          color: #000;
+        }
+        .contentlist a:hover{
+          text-decoration: none;
+          color: #927265;
+        }
+        .left{
+          text-align: right;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+        }
+        .right{
+          text-align: left;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+          padding-left: 200px;
+        }
+        .leftimg {
+         float:left;
+         margin: 15px 20px 7px 20px;
+        }
+        .rightimg  {
+        float: right;
+        margin:  15px 20px 7px 20px;
+        }
+        .textp{
+          font-size: 22px;
+          line-height: 1.5;
+          text-align: justify;
+          margin-right: 30px;
+          margin-bottom: 60px;
+          margin-top: -10px;
+          margin-left: 30px;
+        }
+        hr{
+            border-width: none;
+            height: 2px;
+            text-align: center;
+            width: 90%;
+            border: none;
+            background: #46404A;
+            border-radius: 5px;
+        }
+        a{
+          font-size: 26px;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        a:hover{
+          text-decoration: none;
+          color: #54AAF3;
+        }
+        marquee{
+          font-size: 20px;
+          color: #fff;
+          padding: 10px;
+        }
+        .links{
+          background-color: #EAE3D9;
+          padding: 12px;
+          border-radius: 20px;
+          float: right;
+          margin: 20px;
+          font-size: 20px;
+          font-weight: bold;
+          color: #444148;
+        }
+        .links:hover{
+          color: #927265;
+          padding: 12px;
+          border-radius: 20px;
+          float: right;
+        }
+        .bottombttn{
+          margin-bottom: 150px;
+        }
+        #bg{
+          margin-left: -20px;
+          margin-top: -5px;
+        }
+        #kpklp{
+          margin-left: 100px;
+          margin-right: -60px;
+        }
+        #ttl{
+          text-align: center;
+          font-size: 35px;
+          font-weight: bold;
+          line-height: 1.5;
+          padding-top: 40px;
+          margin-left: -20px;
+        }
+        .contactinfo{
+          color: #fff;
+          line-height: 2;
+          font-size: 15px;
+          margin-left:60px;
+          padding-bottom: 30px;
+        }
+        #ttlfooter{
+          text-align: center;
+          line-height: 1.2;
+          color: #fff;
+          font-size: 20px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+        .spec{
+          background: #fff;
+        }
+        .infoleft{
+          font-size: 20px;
+          padding-left: 600px;
+          line-height: 1.5;
+          padding-bottom: 30px;
+        }
+        #obl{
+          padding-left: 200px;
+          padding-top: 50px;
+          opacity: 0.7;
+        }
+        .inforight{
+          font-size: 20px;
+          padding-left: 200px;
+          line-height: 1.5;
+          padding-bottom: 30px;
+        }
+        #fin{
+          opacity: 0.7;
+          padding-right: 200px;
+        }
+        #techn{
+          padding-left: 600px;
+          text-aling: left;
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          padding-right: 215px;
+          padding-top: 40px;
+          margin-bottom: -40px;
+        }
+        #tech{
+          padding-left: 100px;
+          padding-top: 30px;
+          opacity: 0.7;
+        }
+        #prgrmmr{
+            padding-right: 412px;
+        }
+        #mngmnt{
+          padding-right: 430px;
+        }
+        #frstp{
+          text-align: center;
+          padding-left: 35%;
+          color: #000;
+        }
+        #scndp{
+          text-align: center;
+          padding-left: 20px;
+        }
+        .unactive{
+          color: #787878;
+        }
+        #menu{
+          padding-top:20px;
+        }
+        #cntinf{
+          color: #000;
+          line-height: 2;
+          font-size: 20px;
+          margin-left:60px;
+          margin-top: 70px;
+          font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+          <header class="header">
+            <p class="textp"><img src="images/KPK_LP.png" alt="KPK LP"
+             width="200" height="200" class="leftimg" id="kpklp">
+             <p id="ttl">Коломийський політехнічний фаховий коледж
+               <br>Національного Університету<br> «ЛЬВІВСЬКА ПОЛІТЕХНІКА»</p>
+            </p>
+          </header>
+
+          <div class="content">
+                  <p id="cntinf">Адреса: вул.Чехова, 20, м.Коломия, Івано-Франківська обл., Україна, 78203<br>
+                    E-mail (електронна пошта): polynet100@gmail.com<br>
+                    тел.(03433) 5-03-39, факс (03433) 4-77-26<br>
+                    Відбіркова комісія: (03433) 2-79-85, (03433) 2-66-75<br></p>
+                <div class="information">
+                  <p id="menu"><a href="index.html" id="frstp">СПЕЦІАЛЬНОСТІ</a><a href="second.html" id="scndp" class="unactive">ВІДДІЛЕННЯ</a></p>
+                      <div class="spec">
+                        <p class="left">071  «Облік і оподаткування» /  ОПП «Облік і оподаткування»</p>
+                        <p class="textp"><img src="images/облік і оподаткування.png" alt="KPK LP"
+                         width="327" height="210" class="leftimg" id="obl">
+                       <p class="infoleft"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                          <b>Кваліфікація:</b> Фаховий молодший бакалавр з обліку та оподаткування<br>
+                          <b>Термін навчання:</b><br>
+                              2 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                              1 рік 10 місяців – на основі повної загальної середньої освіти<br><br>
+
+                          <b>Фахівці можуть обіймати такі посади:</b><br>
+                              технік з планування, бухгалтер, касир-експерт,<br>
+                              інспектор, інспектор з інвентаризації, інспектор-ревізор, ревізор.</p></p>
+                      </div>
+
+                        <p class="right">072 «Фінанси, банківська справа та страхування» /<br>
+                                              ОПП «Фінанси, банківська справа та страхування»</p>
+                        <p class="textp"><img src="images/фінансист.png" alt="KPK LP"
+                         width="463" height="275" class="rightimg" id="fin">
+                       <p class="inforight"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                            <b>Кваліфікація:</b> Фаховий молодший бакалавр з фінансів,<br>
+                            банківської справи та страхування<br>
+                            <b>Термін навчання:</b><br>
+                              2 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                              1 рік 10 місяців – на основі повної загальної середньої освіти.<br><br>
+                              <b>Фахівці можуть обіймати такі посади:</b><br>
+                              брокер (посередник) з цінних паперів, дилер (продавець) цінних паперів,<br>
+                              агент страховий, інспектор з організації, інкасації та перевезення цінностей,<br>
+                              інспектор кредитний, інспектор обмінного пункту, бухгалтер, касир-експерт,<br>
+                              інспектор-ревізор, інспектор з інвентаризації, інспектор з контролю за цінами.</p></p>
+
+
+                              <div class="spec">
+                                <p class="left" id="mngmnt">073 «Менеджмент» / ОПП «Менеджмент»</p>
+                                <p class="textp"><img src="images/менеджмент.png" alt="KPK LP"
+                                 width="327" height="310" class="leftimg" id="obl">
+                               <p class="infoleft"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                 <b>Кваліфікація:</b> Фаховий молодший бакалавр з менеджменту<br>
+                                 <b>Термін навчання:</b><br>
+                                 3 роки 6 місяців – на основі базової загальної середньої освіти,<br>
+                                 2 роки 6 місяців – на основі повної загальної середньої освіти<br><br>
+                                 <b>Фахівці можуть обіймати такі посади:</b><br>
+                                 помічник керівника виробничого підрозділу,<br>
+                                 помічник керівника малого підприємства без апарату управління,<br>
+                                 інспектор з контролю за виконанням доручень, референт з основної<br>
+                                 діяльності, організатор з персоналу, інспектор з кадрів, диспетчер,<br>
+                                 диспетчер виробництва, технік з підготовки виробництва, технік з праці,<br>
+                                 агент з постачання, диспетчер з відпуску готової продукції.</p></p>
+                              </div>
+
+                              <p class="right">075 «Маркетинг» / ОПП «Маркетинг»</p>
+                              <p class="textp"><img src="images/маркетинг.png" alt="KPK LP"
+                               width="363" height="295" class="rightimg" id="fin">
+                             <p class="inforight"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                               <b>Кваліфікація:</b> Фаховий молодший бакалавр з маркетингу<br>
+                              <b>Термін навчання:</b> <br>
+                                     2 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                     1 рік 10 місяців – на основі повної загальної середньої освіти<br><br>
+                              Агенти з маркетингових послуг працюватимуть на підприємствах оптової<br>
+                              та роздрібної торгівлі, маркетингових службах підприємств різних видів <br>
+                              діяльності. Фахівці можуть обіймати такі посади: менеджер, консультант <br>
+                              з маркетингу, брокер, дилер, маклер біржовий, агент комерційний, агент <br>
+                              торговельний, мерчендайзер, представник торговельний, організатор з постачання, <br>
+                              організатор зі збуту, агент рекламний, торговець (обслуговування бізнесу та реклами). <br>
+                              Фахівці з маркетингу здатні реалізовувати дослідження внутрішнього і зовнішнього ринку<br>
+                              товарів і послуг, проводити сегментування товарних ринків, розробляти маркетингову товарну,<br>
+                              цінову та збутову політику,а також політику комунікацій..</p></p>
+
+                                    <div class="spec">
+                                      <p class="left" id="prgrmmr">121 «Інженерія програмного забезпечення» /<br>
+                                            ОПП «Інженерія програмного забезпечення»</p>
+                                      <p class="textp"><img src="images/програміст.png" alt="KPK LP"
+                                       width="327" height="310" class="leftimg" id="obl">
+                                     <p class="infoleft"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                       <b>Кваліфікація:</b> Технік-програміст<br>
+                                        <b>Термін навчання:</b><br>
+                                                   3 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                                   2 роки 10 місяців – на основі повної загальної середньої освіти<br><br>
+                                        <b>Фахівці можуть обіймати такі посади:</b> <br>
+                                             технік-програміст, фахівець з інформаційних технологій, <br>
+                                              фахівець з розробки та тестування програмного забезпечення, <br>
+                                              фахівець з розроблення комп’ютерних програм.</p></p>
+                                    </div>
+
+                                    <p class="right">133 «Галузеве машинобудування» /<br> ОПП «Галузеве машинобудування»</p>
+                                    <p class="textp"><img src="images/механік.png" alt="KPK LP"
+                                     width="363" height="355" class="rightimg" id="fin">
+                                   <p class="inforight"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                        <b>Кваліфікація:</b> Технік з експлуатації та ремонту устаткування<br>
+                                        <b>Термін навчання:</b> <br>
+                                                  3 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                                  2 роки 10 місяців – на основі повної загальної середньої освіти<br><br>
+                                        <b>Фахівці можуть обіймати такі посади:</b> <br>
+                                             технік з експлуатації та ремонту устаткування, технік-конструктор (механік),<br>
+                                             технік-технолог (механік), слюсар-ремонтник, технік з налагоджування<br>
+                                             та випробування, технік з метрології.</p></p>
+
+                                          <div class="spec">
+                                            <p class="left">151 «Автоматизація та комп’ютерно-інтегровані технології» /<br>
+                                                  ОПП «Автоматизація та комп’ютерно-інтегровані технології»</p>
+                                            <p class="textp"><img src="images/автоматчик.png" alt="KPK LP"
+                                             width="327" height="310" class="leftimg" id="obl">
+                                           <p class="infoleft"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                              <b>Кваліфікація:</b> Електромеханік<br>
+                                              <b>Термін навчання:</b> <br>
+                                                       3 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                                       2 роки 10 місяців – на основі повної загальної середньої освіти<br><br>
+                                              <b>Фахівці можуть обіймати такі посади:</b> <br>
+                                                   електромеханік, електромеханік дільниці, <br>
+                                                   технік-конструктор (технік-електромеханік) з автоматизації <br>
+                                                   виробничих процесів, технік з налагоджування та випробувань, <br>
+                                                   кресляр-конструктор систем автоматизації, лаборант з обслуговування <br>
+                                                   засобів автоматизації.</p></p>
+                                          </div>
+
+                                          <p class="right">182 «Технології легкої промисловості»/<br>
+                                            ОПП «Технології легкої промисловості»</p>
+                                          <p class="textp"><img src="images/дизайнер.png" alt="KPK LP"
+                                           width="363" height="275" class="rightimg" id="fin">
+                                         <p class="inforight"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                           <b>Кваліфікація:</b> Технік – конструктор<br>
+
+                                          <b>Термін навчання:</b><br>
+                                                3 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                                2 роки 10 місяців – на основі повної загальної середньої освіти<br><br>
+
+                                          <b>Фахівці можуть обіймати такі посади:</b><br>
+                                          технік-конструктор, конфекціонер, виготовлювач лекал (швацьке виробництво), закрійник.</p></p>
+
+                                                <div class="spec">
+                                                  <p id="techn">205 «Лісове господарство»/<br>ОПП «Деревообробні та меблеві технології»</p>
+                                                  <p class="textp"><img src="images/технолог.png" alt="KPK LP"
+                                                   width="427" height="310" class="leftimg" id="tech">
+                                                 <p class="infoleft"><b>Форма здобуття освіти:</b> денна, заочна<br>
+                                                   <b>Кваліфікація:</b> Технік – технолог<br>
+                                                    <b>Термін навчання:</b><br>
+                                                              3 роки 10 місяців – на основі базової загальної середньої освіти,<br>
+                                                              2 роки 10 місяців – на основі повної загальної середньої освіти<br><br>
+
+                                                    Фахівці можуть працювати на підприємствах деревообробної<br>
+                                                    промисловості на посадах: технолог, майстер виробничої дільниці,<br>
+                                                    технік-лаборант, контролер деревообробного виробництва,<br>
+                                                    технік з підготовки виробництва.</p></p>
+                                                </div>
+
+                </div>
+            </div>
+            <footer class="footer">
+                <p id="ttlfooter">Коломийський політехнічний фаховий коледж<br>
+                  Національного університету «Львівська політехніка»</p>
+                <p class="contactinfo">Адреса: вул.Чехова, 20, м.Коломия, Івано-Франківська обл.,
+                Україна, 78203<br>
+                E-mail (електронна пошта): polynet100@gmail.com<br>
+                тел.(03433) 5-03-39, факс (03433) 4-77-26<br>
+                Відбіркова комісія: (03433) 2-79-85, (03433) 2-66-75</p>
+            </footer>
+    </div>
+  </body>
+</html>
